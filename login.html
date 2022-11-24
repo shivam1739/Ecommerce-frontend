@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>signup page</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link href="/css/auth.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="header">
+          <img class="img" src="s.png" />
+        </div>
+        <div class="title">
+          <div class="hide" id="signupTitle">Sign-up</div>
+          <div class="" id="loginTitle">Login</div>
+        </div>
+        <div class="logincontainer">
+          <div class="lors" id="loginForm">
+            <div class="login">
+              <input
+                class="username"
+                type="text"
+                placeholder="username or emai"
+                id="loginUsername"
+              />
+              <input
+                class="pass"
+                type="text"
+                placeholder="password"
+                id="loginPassword"
+              />
+              <button type="submit" id="loginBtn">login</button>
+            </div>
+            <div class="text" id="showSignupbtn">creat an account</div>
+          </div>
+          <div class="lors hide" id="signupForm">
+            <div class="signup">
+              <input
+                class="username"
+                type="text"
+                placeholder="username or emai"
+                id="signUpUsername"
+              />
+              <input
+                class="email"
+                type="email"
+                placeholder="email"
+                id="signupEmail"
+              />
+              <input
+                class="pass"
+                type="text"
+                placeholder="password"
+                id="signupPassword"
+              />
+              <button type="submit" id="signupBtn">signup</button>
+            </div>
+            <div class="text" id="showloginbtn">I have alrady account</div>
+          </div>
+          <div class="errors">
+            <div class="" id="authErrMsg"></div>
+            <div class="" id="succErrMsg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/login.js"></script>
+  </body>
+</html>

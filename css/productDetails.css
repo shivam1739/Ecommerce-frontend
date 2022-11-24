@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  position: fixed;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 5%;
+  height: 40%;
+}
+.productData {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+.image {
+  height: 100%;
+  width: 30%;
+}
+.image > img {
+  height: 100%;
+  width: 100%;
+}
+.leftCont {
+  width: 55%;
+}
+.description {
+  margin-top: 2%;
+  height: 30%;
+  width: 65%;
+}
+.name {
+  font-size: 3em;
+  font-weight: 900;
+  opacity: 60%;
+  margin-bottom: 2%;
+}
+.cost {
+  font-size: 2em;
+  font-weight: 900;
+  width: 100%;
+}
+.btnCon {
+  width: 100%;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: #e3f2fd;
+  font-size: 1em;
+  height: 63%;
+  border-radius: 5px;
+  margin: 0 2%;
+}
+.hide {
+  display: none;
+}

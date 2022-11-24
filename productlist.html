@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-widht inital-scale=1.0" />
+    <title>product list</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/porductlist.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="left"><a href="index.html"> Ecommerce</a></div>
+      <div class="right">
+        <div class="search">
+          <input class="searchbar" type="text" placeholder="Search product" />
+        </div>
+        <div class="username" id="userName">Hii user</div>
+
+        <div><a href="">Cart </a></div>
+        <div id="logoutBtn">
+          <a href="">Log out </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="heading">All products</div>
+
+    <div class="maincontainer">
+      <div class="left-con">
+        <div class="filter">
+          <div class="search-con">
+            <label>Search</label>
+            <input
+              class="search-product"
+              type="text"
+              placeholder="search products"
+              id="searchProduct"
+            />
+          </div>
+          <div>
+            <br />
+            <div>Categories</div>
+            <div class="categories-list" id="category-list"></div>
+          </div>
+          <br />
+          <div class="filer-by-price">
+            filter by price
+            <div class="select">
+              <select class="" id="minimum">
+                <option value="0">0</option>
+                <option value="1000">1000</option>
+                <option value="2000">2000</option>
+                <option value="5000">5000</option>
+                <option value="10000">10000</option>
+                <option value="20000">20000</option>
+                <option value="50000">50000</option>
+              </select>
+              <select class="" id="maximun">
+                <option value="1000">1000</option>
+                <option value="2000">2000</option>
+                <option value="5000">5000</option>
+                <option value="10000">10000</option>
+                <option value="20000">20000</option>
+                <option value="50000">50000</option>
+                <option value="100000" selected>100000</option>
+              </select>
+            </div>
+          </div>
+          <div class="min-max">
+            <span>Min-Price</span><span>Max-Price</span>
+          </div>
+          <br />
+
+          <div class="clear-btn">
+            <button id="clearFilter">Clear All Fiter</button>
+          </div>
+        </div>
+      </div>
+      <div class="right-con">
+        <div class="productContainer" id="product_list"></div>
+      </div>
+    </div>
+    <script src="/js/productList.js"></script>
+    <script src="/js/common.js"></script>
+  </body>
+</html>

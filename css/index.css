@@ -1,0 +1,27 @@
+.category {
+  border: solid black 2px;
+  height: 80vh;
+  width: 80%;
+  margin: 10% 10%;
+}
+
+.category-list {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products {
+  height: 10vh;
+  width: 10vw;
+
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 12px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
